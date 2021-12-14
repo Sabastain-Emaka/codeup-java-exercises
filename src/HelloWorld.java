@@ -119,18 +119,31 @@ public class HelloWorld {
 //        float myNumber = 3.4; // it says compatible, two ways to solve this is change float to double and using an integer
 //        System.out.println(myNumber);
 
-        int x = 5;
-        System.out.println(x++);
-        System.out.println(x);
-
-        int x = 5;
-        System.out.println(++x);
-        System.out.println(x);
+//        int x = 5;
+//        System.out.println(x++);
+//        System.out.println(x);
+//
+//        int x = 5;
+//        System.out.println(++x);
+//        System.out.println(x);
 
         // The first block prints out X and post increment it and also print out x on a different line
         // The second block
 
 // test
+//        double class = 5; // says not a statement, ';', expected, <identifier> expected, reached end of file while parsing
+        // class cannot be a variable because it's a key word in Java
+
+        String theNumberThree = "three";
+        Object o = theNumberThree;
+        int three = (int) o;
+        System.out.println(theNumberThree);
+        // the above block of codes did not print out an accurate result
+
+//        int three = (int) "three";
+       // System.out.println(three); // it says variable three is already defined in method main
+
+
     }
 
 }
