@@ -142,7 +142,32 @@ public class HelloWorld {
 
 //        int three = (int) "three";
        // System.out.println(three); // it says variable three is already defined in method main
+//        int x = 4;
+//        x = x + 5;
 
+        int x = 4 + 5;
+
+//        int x = 3;
+//        int y = 4;
+//        y = y * x;
+
+        int x = 3;
+        int y =  4 * 3;
+
+//        int x = 10;
+//        int y = 2;
+//        x = x / y;
+//        y = y - x;
+
+        int x = 10;
+        int y = 2;
+        x /= y;
+        y -= x;
+         System.out.println(x);
+         System.out.println(y);
+         System.out.println(x);
+         System.out.println(x);
+         System.out.println(y);
 
     }
 
