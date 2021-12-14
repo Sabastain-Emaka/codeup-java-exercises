@@ -94,10 +94,10 @@ public class HelloWorld {
         String myString = "Jesus is Lord";
         System.out.println(myString);
 
-//        String myString = 1; // this shows incompatible
+//        String myString = a; // this shows incompatible, you cannot assign a character type to string data type
 //        System.out.println(myString);
 
-//        String myString = 3.14159; // it says incompatible found, double require
+//        String myString = 3.14159; // it says incompatible found, you cannot assign a number to a String data type
 //        System.out.println(myString);
 
 //        double myNumber = ; // it says expression  needed
@@ -116,7 +116,7 @@ public class HelloWorld {
 //        double myNumber = 3.4;
 //        System.out.println(myNumber);
 
-//        float myNumber = 3.4; // it says compatible, two ways to solve this is change float to double and using an integer
+//        float myNumber = 3.4; // floats data types need an 'f' at the end of the assigned value
 //        System.out.println(myNumber);
 
 //        int x = 5;
@@ -138,36 +138,33 @@ public class HelloWorld {
         Object o = theNumberThree;
         int three = (int) o;
         System.out.println(theNumberThree);
+        // gets erro due to data types
         // the above block of codes did not print out an accurate result
 
 //        int three = (int) "three";
        // System.out.println(three); // it says variable three is already defined in method main
 //        int x = 4;
 //        x = x + 5;
-
-        int x = 4 + 5;
+        // solution
+        //x += 5;
 
 //        int x = 3;
 //        int y = 4;
 //        y = y * x;
-
-        int x = 3;
-        int y =  4 * 3;
+        //solution
+        // y *=x;
 
 //        int x = 10;
 //        int y = 2;
 //        x = x / y;
 //        y = y - x;
+        //solution
+        // x /=y;
+        // y = y-x;
+        // y -= x;
 
-        int x = 10;
-        int y = 2;
-        x /= y;
-        y -= x;
-         System.out.println(x);
-         System.out.println(y);
-         System.out.println(x);
-         System.out.println(x);
-         System.out.println(y);
+         System.out.println(Byte.MAX_VALUE);
+
 
     }
 
