@@ -85,6 +85,52 @@ public class HelloWorld {
         int difference = (byte)(x-y);
         System.out.println(difference);
 
+
+        // Exercises
+
+        int myFavoriteNumber = 1;
+        System.out.println(myFavoriteNumber);
+
+        String myString = "Jesus is Lord";
+        System.out.println(myString);
+
+//        String myString = 1; // this shows incompatible
+//        System.out.println(myString);
+
+//        String myString = 3.14159; // it says incompatible found, double require
+//        System.out.println(myString);
+
+//        double myNumber = ; // it says expression  needed
+//        System.out.println(myNumber);
+
+        double myNumber = 3.14;
+         System.out.println(myNumber);
+
+//        double myNumber = 123L;
+//        System.out.println(myNumber);
+
+
+//        double myNumber = 123;
+//        System.out.println(myNumber);
+
+//        double myNumber = 3.4;
+//        System.out.println(myNumber);
+
+//        float myNumber = 3.4; // it says compatible, two ways to solve this is change float to double and using an integer
+//        System.out.println(myNumber);
+
+        int x = 5;
+        System.out.println(x++);
+        System.out.println(x);
+
+        int x = 5;
+        System.out.println(++x);
+        System.out.println(x);
+
+        // The first block prints out X and post increment it and also print out x on a different line
+        // The second block
+
+
     }
 
 }
