@@ -178,6 +178,11 @@ public class HelloWorld {
          System.out.println(x);
          System.out.println(y);
 
+         // The code below cause a compiler error
+        //byte biggerInt = 129;
+
+        System.out.println(Integer.MAX_VALUE);
+
 
     }
 
