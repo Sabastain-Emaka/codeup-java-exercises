@@ -79,11 +79,11 @@ public class HelloWorld {
         int result = dayOfMonth * birthday;
 
         // Explicit Casting- more specific data type, to less specific data type
-        int x = 900;
-        int y = 800;
-
-        int difference = (byte)(x-y);
-        System.out.println(difference);
+//        int x = 900;
+//        int y = 800;
+//
+//        int difference = (byte)(x-y);
+//        System.out.println(difference);
 
 
         // Exercises
@@ -104,24 +104,31 @@ public class HelloWorld {
 //        String myString = 3.14159; // it says incompatible found, you cannot assign a number to a String data type
 //        System.out.println(myString);
 
-//        long myNumber = ; // it says expression  needed
+        //5
+//        long myNumber; // it says expression  needed
 //        System.out.println(myNumber);
 
-        double myNumber = 3.14;
-         System.out.println(myNumber);
+            //6
+        // myNumber = 3.14;
+        //  System.out.println(myNumber);
 
-//        double myNumber = 123L;
+    //7
+//         myNumber = 123L;
 //        System.out.println(myNumber);
 
-
-//        double myNumber = 123;
+    //8
+//         myNumber = 123;
 //        System.out.println(myNumber);
 
-//        double myNumber = 3.4;
+        // 9
+//        myNumber = 3.4; // floats data types need an 'f' at the end of the assigned value
 //        System.out.println(myNumber);
 
-//        float myNumber = 3.4; // floats data types need an 'f' at the end of the assigned value
+//        float myNumber = 3.14f;
 //        System.out.println(myNumber);
+        float myNumber = (float)3.14;
+        System.out.println(myNumber);
+    // 10
 
 //        int x = 5;
 //        System.out.println(x++);
@@ -134,40 +141,42 @@ public class HelloWorld {
         // The first block prints out X and post increment it and also print out x on a different line
         // The second block
 
-// test
+    // 11
 //        double class = 5; // says not a statement, ';', expected, <identifier> expected, reached end of file while parsing
         // class cannot be a variable because it's a key word in Java
 
+        //12
 //        String theNumberThree = "three";
 //        Object o = theNumberThree;
 //        int three = (int) o;
-//        System.out.println(theNumberThree);
-        // gets erro due to data types
-        // the above block of codes did not print out an accurate result
+        //System.out.println(three)
+        // this is a class exception error
+
 
 //        int three = (int) "three";
-       // System.out.println(three); // it says variable three is already defined in method main
+       // System.out.println(three); // this is a compile error
+
+        //13
 //        int x = 4;
 //        x = x + 5;
         // solution
         //x += 5;
+        //System.out.println(x);
 
 //        int x = 3;
 //        int y = 4;
 //        y = y * x;
         //solution
         // y *=x;
+        //System.out.println(y);
 
-//        int x = 10;
-//        int y = 2;
-//        x = x / y;
-//        y = y - x;
+        int x = 10;
+        int y = 2;
         //solution
-        // x /=y;
-        // y = y-x;
-        // y -= x;
-
-         System.out.println(Byte.MAX_VALUE);
+         x /=y;
+         y -= x;
+         System.out.println(x);
+         System.out.println(y);
 
 
     }
