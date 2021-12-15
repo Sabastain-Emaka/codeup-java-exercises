@@ -134,10 +134,10 @@ public class HelloWorld {
 //        double class = 5; // says not a statement, ';', expected, <identifier> expected, reached end of file while parsing
         // class cannot be a variable because it's a key word in Java
 
-        String theNumberThree = "three";
-        Object o = theNumberThree;
-        int three = (int) o;
-        System.out.println(theNumberThree);
+//        String theNumberThree = "three";
+//        Object o = theNumberThree;
+//        int three = (int) o;
+//        System.out.println(theNumberThree);
         // gets erro due to data types
         // the above block of codes did not print out an accurate result
 
