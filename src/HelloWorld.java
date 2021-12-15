@@ -88,19 +88,23 @@ public class HelloWorld {
 
         // Exercises
 
+        // 1
         int myFavoriteNumber = 1;
         System.out.println(myFavoriteNumber);
 
+        //2
         String myString = "Jesus is Lord";
         System.out.println(myString);
 
-//        String myString = a; // this shows incompatible, you cannot assign a character type to string data type
+        //3
+//        String myString = 'a'; // this shows incompatible, you cannot assign a character type to string data type
 //        System.out.println(myString);
 
+        //4
 //        String myString = 3.14159; // it says incompatible found, you cannot assign a number to a String data type
 //        System.out.println(myString);
 
-//        double myNumber = ; // it says expression  needed
+//        long myNumber = ; // it says expression  needed
 //        System.out.println(myNumber);
 
         double myNumber = 3.14;
