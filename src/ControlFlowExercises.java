@@ -35,7 +35,7 @@ public class ControlFlowExercises {
         do {
             System.out.println(num);
             num -= 5;
-        } while (num >= -10)
+        } while (num >= -10);
         //Create a do-while loop that starts at 2, and displays the number squared on each line while the number is less than 1,000,000. Output should equal:
         //
         // 2
