@@ -15,11 +15,11 @@ public class ControlFlowExercises {
         //
         //5 6 7 8 9 10 11 12 13 14 15
 
-        int i = 5;
-        while (i <= 15) {
-            System.out.println(i + " ");
-            i++;
-        }
+//        int i = 5;
+//        while (i <= 15) {
+//            System.out.println(i + " ");
+//            i++;
+//        }
 
         // for loop version
 //		int i;
@@ -86,24 +86,27 @@ public class ControlFlowExercises {
         // One of the most
         // common interview questions for entry-level programmers is the FizzBuzz test.
         // Write a program that prints the numbers from 1 to 100.
-        for (int num = 1; num <= 100; num += 1) {
-            System.out.println(num);
-        }
+//        for (int num = 1; num <= 100; num += 1) {
+//            System.out.println(num);
+//        }
+
         // For multiples of three: print “Fizz” instead of the number.
         //For the multiples of five: print “Buzz”.
         //For numbers which are multiples of both three and five: print “FizzBuzz”.
-        for (int num = 1; num <= 100; num += 1) {
-            if (num % 15 == 0) {
-                System.out.println("FizzBuzz");
-            } else if (num % 5 == 0) {
-                System.out.println("Buzz");
-            } else if (num % 3 == 0) {
-                System.out.println("Fizz");
-            } else {
-                System.out.println(num);
-            }
+//        for (int num = 1; num <= 100; num += 1) {
+//            if (num % 15 == 0) {
+//                System.out.println("FizzBuzz");
+//            } else if (num % 5 == 0) {
+//                System.out.println("Buzz");
+//            } else if (num % 3 == 0) {
+//                System.out.println("Fizz");
+//            } else {
+//                System.out.println(num);
+//            }
+//
+//        }
 
-        }
+
         // // Exercise 3 - Display a table of powers.
         ////
         ////		-Prompt the user to enter an integer.
@@ -135,7 +138,7 @@ public class ControlFlowExercises {
         System.out.println("number | squared | cubed");
         System.out.println("---- | ---- | ----");
         for (int i = 1; i <= num; i += 1) {
-            System.out.printf("%");
+            System.out.printf("%-6d | %-7d | %-5d", i, (int) Math.pow(i, 2), (int) Math.pow(i, 3) );
         }
     }
 }
