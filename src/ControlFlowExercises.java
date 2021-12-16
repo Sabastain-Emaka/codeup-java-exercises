@@ -45,11 +45,11 @@ public class ControlFlowExercises {
 
         //Alter your loop to count backwards by 5's from 100 to -10.
 
-        int num = 100;
-        do {
-            System.out.println(num);
-            num -= 5;
-        } while (num >= -10);
+//        int num = 100;
+//        do {
+//            System.out.println(num);
+//            num -= 5;
+//        } while (num >= -10);
 
         // for loop version
 //		int num;
@@ -66,11 +66,11 @@ public class ControlFlowExercises {
         // 256
         // 65536
 
-        long n  = 2;
-        do {
-            System.out.println(n);
-            n *= n;
-        } while (n <= 1000000);
+//        long n  = 2;
+//        do {
+//            System.out.println(n);
+//            n *= n;
+//        } while (n <= 1000000);
 
         // for loop version
 //		long n;
@@ -80,5 +80,27 @@ public class ControlFlowExercises {
 //		}
 
 
+        // 2. Fizzbuzz
+        // One of the most
+        // common interview questions for entry-level programmers is the FizzBuzz test.
+        // Write a program that prints the numbers from 1 to 100.
+        for (int num = 1; num <= 100; num += 1) {
+            System.out.println(num);
+        }
+        // For multiples of three: print “Fizz” instead of the number.
+        //For the multiples of five: print “Buzz”.
+        //For numbers which are multiples of both three and five: print “FizzBuzz”.
+        for (int num = 1; num <= 100; num += 1) {
+            if (num % 15 == 0) {
+                System.out.println("FizzBuzz");
+            } else if (num % 5 == 0) {
+                System.out.println("Buzz");
+            } else if (num % 3 == 0) {
+                System.out.println("Fizz");
+            } else {
+                System.out.println(num);
+            }
+
+        }
     }
 }
