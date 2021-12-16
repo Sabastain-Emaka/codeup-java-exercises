@@ -44,6 +44,15 @@ public class ControlStatementsLoopsLec {
 //        if (chuckableWood > 0){
 //            System.err.println("If a woodchuck could chuck wood.");
 //        }
+        //        if (number34.equalsIgnoreCase("Clyde Drexler")) {
+//            System.out.println("He didn't join the Rockets until '95.");
+//        } else if (!number34.equalsIgnoreCase("Hakeem Olajuwon")){
+//            System.out.println("I guess we never could be friends...");
+//            if (lizzieSeasons == 2) {
+//                System.out.println("I take that back, we're cool.");
+//            }
+//        }
+
 
 
         //switch statement
