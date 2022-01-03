@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class StringsLec {
@@ -16,10 +17,11 @@ public class StringsLec {
 
         // compare the start and end of a string
 
-        String jevian = "Jevian";
-        String jev = "Jev";
-        char firstLetterOfDavid = jevian.charAt(0);
-        System.out.println("Does \"Jevian\" and \"Jev\" start with the same letter?" + dad.StartsWith("" + firstLetterOfDavid);
+//        String jevian = "Jevian";
+//        String jev = "Jev";
+//        char firstLetterOfDavid = jevian.charAt(0);
+//        System.out.println("Does \"Jevian\" and \"Jev\" start with the same letter?" + dad.StartsWith("" + firstLetterOfDavid));
+
 
 
     }
