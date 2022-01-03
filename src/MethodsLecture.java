@@ -18,6 +18,11 @@ public class MethodsLecture {
         System.out.println("I'm leaving the house ..");
     }
 
+    //Method overloading
+    /*
+    * Method overloading is a way to define the same method with different
+     */
+
     public static void main(String[] args) {
         returnNum(7);
         System.out.println(returnNum(7));
