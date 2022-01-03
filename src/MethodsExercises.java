@@ -7,8 +7,19 @@ public class MethodsExercises {
 
         // 1 Basic Arithmetic Methods
 
-//    System.out.println(SumOf  2, 4);
+//System.out.println(SumOfNums  (2, 4));
+//System.out.println(SubtractNums  7, 9));
+//System.out.println(DivideNums  (2, 4));
+//System.out.println(modulus (7, 3));
+//System.out.println(product (4, 4));
 
+        public static int SumOfNums(int num1, int num2){
+            return num1 + num2;
+        }
+
+        public static int SubtractNums(int num1, int num2){
+            return num1 - num2;
+        }
     }
 
 }
