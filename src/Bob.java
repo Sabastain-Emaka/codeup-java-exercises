@@ -12,7 +12,16 @@ public class Bob {
             String SayThisToBob = input.nextLine();
             if (SayThisToBob.endsWith("?")) {
                 System.out.println("sure");
-            } else if()
+            } else if(SayThisToBob.endsWith("!")) {
+                System.out.println("whoa, chill out!");
+            } else if (SayThisToBob.length() == 0){
+                System.out.println("Fine. Be that way!");
+            } else {
+                System.out.println("whatever");
+            }
+            System.out.println("keep talking to Bob? Y/N" );
+            KeepTalkingToBob = input.nextLine();
+
 
         }
 
