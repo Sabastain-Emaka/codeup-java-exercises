@@ -10,7 +10,9 @@ public class Bob {
             System.out.println("SaySomethingToBob");
 
             String SayThisToBob = input.nextLine();
-            if (SayThisToBob.endsWith("?"));
+            if (SayThisToBob.endsWith("?")) {
+                System.out.println("sure");
+            } else if()
 
         }
 
