@@ -6,5 +6,13 @@ public class Bob {
         Scanner input = new Scanner(System.in);
         String KeepTalkingToBob = "y";
 
+        while (KeepTalkingToBob.equalsIgnoreCase("y")) {
+            System.out.println("SaySomethingToBob");
+
+            String SayThisToBob = input.nextLine();
+            if (SayThisToBob.endsWith("?"));
+
+        }
+
     }
 }
