@@ -14,8 +14,14 @@ public class MethodsLecture {
         return  num;
     }
 
+    public static void leaveTheHouse(){
+        System.out.println("I'm leaving the house ..");
+    }
+
     public static void main(String[] args) {
         returnNum(7);
+        System.out.println(returnNum(7));
+        leaveTheHouse();
 
     }
 }
