@@ -19,6 +19,7 @@ public class StringsLec {
         String jevian = "Jevian";
         String jev = "Jev";
         char firstLetterOfDavid = jevian.charAt(0);
+        System.out.println("Does \"Jevian\" and \"Jev\" start with the same letter?" + dad.StartsWith("" + firstLetterOfDavid);
 
 
     }
