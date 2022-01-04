@@ -50,20 +50,38 @@ public class MethodsExercises {
 //    }
 
 
-        // 2Create a method that validates that user input is in a certain range
-        public static int getInteger(int min, int max){
-            Scanner scanner =  new Scanner(System.in);
-            int input = Integer.parseInt(scanner.nextLine());
-            if (input < min){
-                System.out.println("enter a number within the range");
-                return getInteger(min,max);
-            } else if (input > max){
-                System.out.println(" enter a number within the range");
-                return getInteger(min, max);
-            }
-            System.out.println("Thank you");
-            return input;
-        }
+        // 2 Create a method that validates that user input is in a certain range
+//        public static int getInteger(int min, int max){
+//            Scanner scanner =  new Scanner(System.in);
+//            int input = Integer.parseInt(scanner.nextLine());
+//            if (input < min){
+//                System.out.println("enter a number within the range");
+//                return getInteger(min,max);
+//            } else if (input > max){
+//                System.out.println(" enter a number within the range");
+//                return getInteger(min, max);
+//            }
+//            System.out.println("Good");
+//            return input;
+//        }
+
+
+        // 3 Calculate the factorial of a number
+//        public static void factorial(){
+//            Scanner scanner = new Scanner(System.in);
+//            System.out.print("Enter a number to get the factorial: ");
+//            int n = scanner.nextInt();
+//            int result = factorial(n);
+//            System.out.println("The factorial of " + n + " is " + result);
+//        }
+//
+//        public static int factorial(int n) {
+//            int result = 1;
+//            for (int i = 1; i <= n; i++) {
+//                result = result * i;
+//            }
+//            return result;
+//        }
 
     }
 
