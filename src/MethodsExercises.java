@@ -49,6 +49,22 @@ public class MethodsExercises {
 //        return multiply(x, y);
 //    }
 
+
+        // 2Create a method that validates that user input is in a certain range
+        public static int getInteger(int min, int max){
+            Scanner scanner =  new Scanner(System.in);
+            int input = Integer.parseInt(scanner.nextLine());
+            if (input < min){
+                System.out.println("enter a number within the range");
+                return getInteger(min,max);
+            } else if (input > max){
+                System.out.println(" enter a number within the range");
+                return getInteger(min, max);
+            }
+            System.out.println("Thank you");
+            return input;
+        }
+
     }
 
 }
