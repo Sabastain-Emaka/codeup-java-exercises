@@ -83,6 +83,22 @@ public class MethodsExercises {
 //            return result;
 //        }
 
+        //(4) Dice game
+//    public static void dice() {
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("How many sides has a Dice?");
+//        int dieSides = sc.nextInt();
+//        System.out.print("do you want to  roll the dice? [y/N] ");
+//        String userAnswer = sc.next();
+//        boolean confirm = userAnswer.equalsIgnoreCase("y");
+//        if(confirm) {
+//            int a = (int) (Math.random() * dieSides);
+//            int b = (int) (Math.random() * dieSides);
+//
+//            System.out.println("die 1 rolled: " + a + "\ndie 2 rolled: " + b);
+//            dice();
+//        }
+//    }
     }
 
 }
