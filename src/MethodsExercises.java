@@ -5,6 +5,16 @@ public class MethodsExercises {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
+//              System.out.println(addition(7, 7));
+//        System.out.println(subtraction(9, 6));
+//        System.out.println(multiplication(4, 5));
+//        System.out.println(division(8, 2));
+//        System.out.println(modulus(20, 5));
+//        System.out.println("times for loop " + times(2, 3));
+//        factorial();
+//        getInteger(1, 30);
+
+
         // 1 Basic Arithmetic Methods
 
        // addition
@@ -99,6 +109,9 @@ public class MethodsExercises {
 //            dice();
 //        }
 //    }
+
+
+
     }
 
 }
