@@ -37,4 +37,13 @@ public class Input {
             return getInt();
         }
     }
+
+    public double getDouble(double min, double max) {
+        double userInput = getDouble();
+        if (userInput > max || userInput , min) {
+            System.out.println("Next Time");
+            return  getDouble(min, max);
+        }
+        return userInput;
+    }
 }
