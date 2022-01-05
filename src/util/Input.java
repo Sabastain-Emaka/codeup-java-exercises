@@ -40,10 +40,20 @@ public class Input {
 
     public double getDouble(double min, double max) {
         double userInput = getDouble();
-        if (userInput > max || userInput , min) {
+        if (userInput > max || userInput < min) {
             System.out.println("Next Time");
             return  getDouble(min, max);
         }
         return userInput;
+    }
+
+    public double getDouble() {
+        try {
+            return Double.valueOf(getString());
+        } catch (NumberFormatException e) {
+            System.out.println("Invalid input need a num");
+            System.out.println(e.getMessage());
+            return  getDouble();
+        }
     }
 }
