@@ -23,4 +23,10 @@ public class PersonExercise {
         this.name = name;
         // this.setName(name);
     }
+
+    public static void main(String[] args) {
+        PersonExercise p1 = new PersonExercise("Jevian");
+        System.out.println(p1.getName());
+        p1.sayHello();
+    }
 }
