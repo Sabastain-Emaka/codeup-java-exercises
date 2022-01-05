@@ -18,4 +18,23 @@ public class Input {
         return getString().startsWith("y");
     }
 
+    public int getInt(int min, int max) {
+        int userInt = getInt();
+        if(userInt >= min && userInt <= max) {
+            return userInt;
+        } else {
+            System.out.println("enter an integer between" + min + " " + " and " + max);
+            return getInt(min, max);
+        }
+    }
+
+
+    public int getInt() {
+        try {
+            return Integer.valueOf(getString());
+        } catch (NumberFormatException e) {
+            System.out.println("not a number");
+            return getInt();
+        }
+    }
 }
