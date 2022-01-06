@@ -4,6 +4,13 @@ import java.util.Arrays;
 
 public class ArraysExercises {
 
+
+    public static Person[] addPerson(Person[] personArr, Person person) {
+        Person[] newPersonArray = Arrays.copyOf(personArr, personArr.length + 1);
+        newPersonArray[newPersonArray.length-1] = person;
+                return  newPersonArray;
+    }
+
     public static void main(String[] args) {
 
 
@@ -35,6 +42,11 @@ public class ArraysExercises {
            System.out.println(people[i].getName());
        }
 
+       Person[] morePeople = addPerson(people, new Person("Ntoh"));
+        System.out.println(Arrays.toString(morePeople));
+        for (Person person : morePeople) {
+            System.out.println(person.getName());
+        }
 
 
 

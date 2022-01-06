@@ -46,6 +46,10 @@ public class Person {
         this.heightInCM = heightInCM;
     }
 
+    public Person(String name) {
+        this.name = name;
+    }
+
     String sayHello() {
         return String.format("Hello from %s! They hope you are well!", name);
     }
