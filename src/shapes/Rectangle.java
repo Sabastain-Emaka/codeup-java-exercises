@@ -2,8 +2,8 @@ package shapes;
 
 public class Rectangle {
 
-    public Rectangle(double length, double width) {
-        super(length, width);
+    public Rectangle(double l, double w) {
+        super(l, w);
     }
 
     @Override
@@ -17,5 +17,3 @@ public class Rectangle {
     }
 
 }
-
-

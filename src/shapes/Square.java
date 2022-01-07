@@ -1,12 +1,13 @@
 package shapes;
 
-public class Square{
+public class Square {
 
     public Square(Double side) {
         super(side, side);
     }
+
     @Override
-    public  double getPerimeter(){
+    public double getPerimeter() {
         return 4 * width;
     }
 
