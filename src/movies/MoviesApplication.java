@@ -51,8 +51,8 @@ public class MoviesApplication extends MoviesArray {
                     System.out.println("Try another option");
                 }
 
-            System.out.println("will you like to continue [Y/N]");
-                userContinue = input.yesNo();
+          //  System.out.println("will you like to continue [Y/N]");
+               // userContinue = input.yesNo();
 
         }while (userContinue);
     }

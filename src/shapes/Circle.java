@@ -1,25 +1,28 @@
 package shapes;
 
 public class Circle {
-
-    private static int circlesCreated = 0;
     private double radius;
+    public static int count = 0;
+    // THE FINAL KEYWORD
+    final public static double PI = Math.PI;
 
     public Circle(double radius) {
         this.radius = radius;
-        circlesCreated++;
-
     }
 
     public double getArea() {
-        return Math.PI * this.radius * this.radius;
+        return Math.PI * (Math.pow(radius, 2));
     }
 
     public double getCircumference() {
-        return 2 * this.radius * Math. PI;
+        return 2* Math.PI * radius;
     }
 
-    public static int getCirclesCreated() {
-        return circlesCreated;
+    public double getRadius() {
+        return this.radius;
+    }
+
+    public void setRadius(double radius) {
+        this.radius = radius;
     }
 }
