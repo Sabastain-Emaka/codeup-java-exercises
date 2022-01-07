@@ -45,7 +45,14 @@ public class MoviesApplication extends MoviesArray {
                             System.out.println(movie.getCategory() + " -- " + movie.getName());
                         }
                     }
+                } else if (userInput ==6) {
+                    System.out.println("Add new movie:\n");
+                } else {
+                    System.out.println("Try another option");
                 }
+
+            System.out.println("will you like to continue [Y/N]");
+                userContinue = input.yesNo();
 
         }while (userContinue);
     }
