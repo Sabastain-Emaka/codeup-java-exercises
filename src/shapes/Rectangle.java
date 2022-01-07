@@ -16,4 +16,17 @@ public class Rectangle extends Quadrilateral {
     public  double getArea () {
         return this.width * this.length;
     }
+
+    @Override
+    void setWidth(double width) {
+        this.width = width;
+    }
+
+    @Override
+    void setLength(double length){
+        this.length = length;
+    }
+
+
+
 }
