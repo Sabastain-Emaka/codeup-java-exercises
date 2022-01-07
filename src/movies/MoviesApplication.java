@@ -39,6 +39,12 @@ public class MoviesApplication extends MoviesArray {
                             System.out.println(movie.getCategory() + " -- " + movie.getName());
                         }
                     }
+                } else if (userInput == 5) {
+                    for (Movie movie : movies) {
+                        if (movie.getCategory().equals("scifi")) {
+                            System.out.println(movie.getCategory() + " -- " + movie.getName());
+                        }
+                    }
                 }
 
         }while (userContinue);
