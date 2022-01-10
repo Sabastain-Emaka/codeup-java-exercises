@@ -6,12 +6,12 @@ public class Square {
         super(side, side);
     }
 
-    @Override
+    //@Override
     public double getPerimeter() {
         return 4 * width;
     }
 
-    @Override
+    //@Override
     public double getArea() {
         return Math.pow(width, 2);
     }
