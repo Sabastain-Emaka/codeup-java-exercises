@@ -10,14 +10,49 @@ public class Penguin {
         return false;
     }
 
-    public static boolean areEvil(){
+    public static boolean areEvil() {
         return true;
+    }
+
+    public Penguin() {
     }
 
     public Penguin(String name, int weight, String species, char sex) {
         this.name = name;
         this.weight = weight;
         this.species = species;
+        this.sex = sex;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+
+    public String getSpecies() {
+        return species;
+    }
+
+    public void setSpecies(String species) {
+        this.species = species;
+    }
+
+    public char getSex() {
+        return sex;
+    }
+
+    public void setSex(char sex) {
         this.sex = sex;
     }
 }
