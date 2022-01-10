@@ -17,6 +17,7 @@ public class  Square extends  Quadrilateral{
 
     }
 
+    // Measurable Implementation
     @Override
     void setLength(double length) {
         this.length = length;
@@ -27,6 +28,18 @@ public class  Square extends  Quadrilateral{
     void setWidth(double width) {
         this.width = width;
     }
+
+
+    //Measurable Implementation
+//    @Override
+//    public void setWidth(double s) {
+//        this.width = s;
+//    }
+//    @Override
+//    public void setLength(double s) {
+//        this.length = s;
+//    }
+
 
 
 
