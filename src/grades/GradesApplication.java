@@ -24,7 +24,12 @@ public class GradesApplication {
 
         Student entoh= new Student("Ekombo");
         entoh.addGrade(100);
-        entoh.addGrade(100);
+        entoh.addGrade(90);
+
+        students.put("entoi", entoi);
+        students.put("mclato", mclato);
+        students.put("mwanneh", mwanneh);
+        students.put("entoh", entoh);
     }
 
 }
