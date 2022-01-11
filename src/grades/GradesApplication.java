@@ -3,11 +3,14 @@ package grades;
 import util.Input;
 
 import java.util.HashMap;
+import java.util.Scanner;
 
 public class GradesApplication {
 
     static HashMap<String, Student> students = new HashMap<>();
     static Input input = new Input();
+     static Scanner sc = new Scanner(System.in);
+
 
     public static void main(String[] args) {
         Student entoi = new Student("Ekoh");
@@ -37,18 +40,21 @@ public class GradesApplication {
         boolean cont = true;
 
         do {
-            String key = input.getString("Which student will you like to details information on?\n");
-
+           // String key = input.getString
+            System.out.print("Which student will you like to see details information on?\n");
+            String key = sc.nextLine();
             if(students.containsKey(key)){
-                System.out.println("Name: "+ students.get(key).getName() +"- GitHub Username: " + key);
+                System.out.println("Name: "+ students.get(key).getName() +"- GitHub Username: " + key + " ");
                 System.out.println("Current Average: " + students.get(key).getGradeAverage());
 
             } else {
                 System.out.println("Sorry, no student found with the GitHub username of " + key);
             }
             cont = input.yesNo("Will you like see another student? yes or no");
+
         } while (cont);
         System.out.println("Thanks, Have a Nice day\n");
+
     }
      public static void showStudents(){
          System.out.println("Here are the GitHub usernames of our students:\n");
@@ -59,3 +65,9 @@ public class GradesApplication {
      }
 
 }
+
+
+
+
+
+
