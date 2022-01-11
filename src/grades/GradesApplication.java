@@ -30,6 +30,24 @@ public class GradesApplication {
         students.put("mclato", mclato);
         students.put("mwanneh", mwanneh);
         students.put("entoh", entoh);
+
+        System.out.println("Welcome!\n");
+        showStudents();
+
+        boolean cont = true;
+
+        do {
+            String key = input.getString("Which student will you like to details information on?\n");
+
+            if(students.containsKey(key)){
+                System.out.println("Name: "+ students.get(key).getName() +"- GitHub Username: " + key);
+                System.out.println("Current Average: " + students.get(key).getGradeAverage());
+
+            } else {
+                System.out.println("Sorry, no student found with the GitHub username of " + key);
+            }
+            cont = input.yesNo("Will you like see another student? yes or no");
+        }
     }
 
 }
