@@ -40,7 +40,6 @@ public class GradesApplication {
         boolean cont = true;
 
         do {
-           // String key = input.getString
             System.out.print("Which student will you like to see details information on?\n");
             String key = sc.nextLine();
             if(students.containsKey(key)){
