@@ -47,7 +47,15 @@ public class GradesApplication {
                 System.out.println("Sorry, no student found with the GitHub username of " + key);
             }
             cont = input.yesNo("Will you like see another student? yes or no");
-        }
+        } while (cont);
+        System.out.println("Thanks, Have a Nice day\n");
     }
+     public static void showStudents(){
+         System.out.println("Here are the GitHub usernames of our students:\n");
+         for(String username : students.keySet()){
+             System.out.println("|" + username + "|");
+         }
+         System.out.println();
+     }
 
 }
