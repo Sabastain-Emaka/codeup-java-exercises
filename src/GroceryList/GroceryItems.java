@@ -1,4 +1,4 @@
-package GroceriesList;
+package GroceryList;
 
 public class GroceryItems {
 

@@ -1,11 +1,11 @@
-package GroceriesList;
+package GroceryList;
 
 import util.Input;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class GroceryList {
+public class GroceriesList {
 
 
     public static Input input = new Input();
