@@ -49,6 +49,18 @@ public class intro {
 
         System.out.println("\\\t\"good to start\"");
         System.out.println("good to start\n");
+
+
+        //switching two variables
+        String t = "water";
+        String h = "Kool-Aid";
+        String temp; // temp is a temporarily variable
+        temp = t;
+        t = h;
+        h = temp;
+
+     System.out.println("t: " +t);
+     System.out.println("h: " +h);
     }
 
 }
