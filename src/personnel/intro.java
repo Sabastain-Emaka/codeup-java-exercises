@@ -23,6 +23,30 @@ public class intro {
         byte g = 12;
         System.out.println("My number is: " +g);
 
+        //float
+        float y = 3.13f;
+        System.out.println(y);
+
+        // double
+
+        double z = 3.1234;
+        System.out.println(z);
+
+        //boolean
+        boolean p = true;
+        System.out.println(p);
+
+        //char
+        char symbol = '@';
+        System.out.println(symbol);
+
+        //String
+        //note that since String is a reference data type, it starts with a capital letter
+         // All reference data types in Java starts with a capital letter
+        String name = "Mbenge";
+        System.out.println(name);
+        System.out.println("Welcome to " +name);
+
         System.out.println("\\\t\"good to start\"");
         System.out.println("good to start\n");
     }
