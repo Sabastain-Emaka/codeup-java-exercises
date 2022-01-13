@@ -17,10 +17,18 @@ public class Input {
         return sc.nextLine();
     }
 
+    public String getString(String prompt) {
+        System.out.println(prompt);
+        return sc.nextLine();
+    }
     public boolean yesNo() {
         return getString().startsWith("y");
     }
 
+    public boolean yesNo(String prompt) {
+        System.out.println(prompt);
+        return getString().startsWith("y");
+    }
     public int getInt(int min, int max) {
         int userInt = getInt();
         if(userInt >= min && userInt <= max) {
@@ -51,6 +59,17 @@ public class Input {
     }
 
     public double getDouble() {
+        try {
+            return Double.valueOf(getString());
+        } catch (NumberFormatException e) {
+            System.out.println("Invalid input need a num");
+            System.out.println(e.getMessage());
+            return  getDouble();
+        }
+    }
+
+    public double getDouble(String prompt) {
+        System.out.println(prompt);
         try {
             return Double.valueOf(getString());
         } catch (NumberFormatException e) {
