@@ -73,24 +73,24 @@ public class FileIO {
             System.out.println(gods);
 
 
-            // Create bucket to replace Hercules
-//            List<String> bucket = new ArrayList<>();
-//
-//            for(String god : gods) {
-//                if(god.equals("Hercules")) {
-//                    // replace Hercules with Hera, then move to the next iteration.
-//                    bucket.add("Hera");
-//                    continue;
-//                }
-//                // copy all god strings to new list
-//                bucket.add(god);
-//            }
+           //  Create bucket to replace Hercules
+            List<String> bucket = new ArrayList<>();
+
+            for(String god : gods) {
+                if(god.equals("Hercules")) {
+                    // replace Hercules with Hera, then move to the next iteration.
+                    bucket.add("Hera");
+                    continue;
+                }
+                // copy all god strings to new list
+                bucket.add(god);
+            }
 
             // rewrite the file with the correct god list.
-//            Files.write(dataFile, bucket);
+            Files.write(dataFile, bucket);
 
-            gods.remove("Hercules");
-            gods.add(0, "Hera");
+//            gods.remove("Hercules");
+//            gods.add(0, "Hera");
 
             Files.write(dataFile, gods);
 
